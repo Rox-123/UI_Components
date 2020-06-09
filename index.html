@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>UI Components</title>
+    <link rel='stylesheet' href='style.css'/>
+  </head>
+
+  <body>
+
+    <div class="tab-container">
+
+      <h1 class="title">Tabs</h1>
+
+ <!--   Tabs:  -->
+    <div class="tab">
+      <button onclick="openTabContent(0)" class="tab-btn-style">Tab 1</button>
+      <button onclick="openTabContent(1)" class="tab-btn-style">Tab 2</button>
+      <button onclick="openTabContent(2)" class="tab-btn-style">Tab 3</button> 
+    </div>
+
+<!--     Tabs Content -->
+  
+        <div class=" tab-content">
+        <h3> Tab 1 - #Random Text Generated</h3>
+        <p>
+          Luckily friends do ashamed to do suppose. Tried meant mr smile so. Exquisite behaviour as to middleton perfectly. Chicken no wishing waiting am. Say concerns dwelling graceful six humoured. Whether mr up savings talking an. Active mutual nor father mother exeter change six did all. 
+        </p>
+      </div>
+      <div class=" tab-content">
+        <h3> Tab 2 - #Random Text Generated</h3>
+        <p>
+          Betrayed cheerful declared end and. Questions we additions is extremely incommode. Next half add call them eat face. Age lived smile six defer bed their few. Had admitting concluded too behaviour him she. Of death to or to being other. 
+        </p>
+      </div>
+
+      <div class=" tab-content">
+        <h3> Tab 3 - #Random Text Generated</h3>
+        <p>
+          Ecstatic advanced and procured civility not absolute put continue. Overcame breeding or my concerns removing desirous so absolute. My melancholy unpleasing imprudence considered in advantages so impression. Almost unable put piqued talked likely houses her met. Met any nor may through resolve entered. An mr cause tried oh do shade happy. 
+        </p>
+      </div>
+
+
+      <h1 class="title">Accordion</h1>
+
+        <button onclick="displayAccordionContent(0)" class="accordion-btn-style">Section 1</button>
+        <div class="accordion-content">
+        <p>
+          Section 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+
+        <button onclick="displayAccordionContent(1)" class="accordion-btn-style">Section 2</button>
+        <div class="accordion-content">
+        <p>
+          Section 2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Tellus elementum sagittis vitae et leo duis ut diam. Ut aliquam purus sit amet luctus venenatis lectus magna. Nibh cras pulvinar mattis nunc sed blandit. Amet mauris commodo quis imperdiet massa tincidunt. Amet purus gravida quis blandit turpis cursus in hac habitasse. Commodo ullamcorper a lacus vestibulum. Etiam dignissim diam quis enim lobortis scelerisque fermentum. 
+        </p>
+      </div>
+
+        <button onclick="displayAccordionContent(2)" class="accordion-btn-style">Section 3</button>
+        <div class="accordion-content">
+        <p>
+          Section 3 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas pretium aenean pharetra magna ac. Aliquam ultrices sagittis orci a scelerisque purus semper eget duis. Purus sit amet volutpat consequat mauris nunc congue. Morbi blandit cursus risus at ultrices mi tempus imperdiet nulla. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed. Donec massa sapien faucibus et molestie ac feugiat sed. Sed elementum tempus egestas sed sed risus pretium. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. 
+        </p>
+      </div>
+
+<!--       Range Slider -->
+        <h1 class="title">Range Slider</h1>
+
+        <input class= "range-slider" type="range" name="rangeSlider" min="0" max="100">
+        <p>Value: <span class="slider-value"></span></p>
+
+<!--       Tooltip -->
+      <h1 class="title tooltip-title">Tooltips</h1>
+
+       <span data-tooltip="This is a tooltip" class="tooltiptext">Some text you can hoover over.</span>
+
+      <!-- Popover -->
+      <h1 class="title popover-title">Popover</h1>
+
+       <div class="popover"> 
+        <p class="popover-click-text">Some text you can click on.</p>
+
+       <div class="popover-content">
+         <h4 class="popover-header">Title</h4>
+       <p class="popover-body-text">This is a popover. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas pretium aenean pharetra magna ac. Aliquam ultrices sagittis orci a scelerisque purus semper eget duis.</p>
+       </div>
+
+       </div>
+
+    </div>
+
+
+
+  </body>
+
+  <script type="text/javascript" src="js.js"></script>
+</html>
